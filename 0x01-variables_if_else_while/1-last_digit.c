@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /** more headers goes there 
- *get random number n
- * compare it with 5 an 0
- * output result
+ *get random number ncompare it with 5 an 0 output result
  */
 int main(void)
 {
