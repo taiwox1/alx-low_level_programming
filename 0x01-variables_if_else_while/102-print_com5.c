@@ -10,36 +10,31 @@ int main(void)
 {
         int n;
         int m;
-	int x;
-	int y;
+        int y;
+	int q;
 
+
+	for (q = '0'; q <= '9'; q++)
+	{
         for (n = '0'; n <= '9'; n++)
         {
                 for (m = '0' ; m <= '9'; m++)
                 {
-
-			for (x = '0'; x <= '9'; x++){
-
-				for (y = '0'; y <= '9'; y++)
-				{
-					putchar(n);
-					putchar(m);
-					putchar(' ');
-					putchar(x);
-                                        putchar(y);
-
-				}
-				if ((n != '9' || m != '9') && (n != '9' || m != '9'))
+                        for (y = (m + 1) ; y <= '9'; y++)
                         {
-                                putchar(',');
-                                putchar(' ');
+				putchar(q);
+                                putchar(n);
+                                putchar(m);
+                                putchar(y);
+                                if (m != '8' || n != '7' || y != '9')
+                                {
+                                        putchar(',');
+                                        putchar(' ');
+                                }
                         }
-
-
-			}
                 };
-        };
+        }
+	}
         putchar('\n');
         return (0);
-}
-
+} 
