@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there
+/** more headers goes there
  * get random number ncompare it with 5 an 0 output result
  */
 int main(void)
