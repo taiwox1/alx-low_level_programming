@@ -11,6 +11,7 @@ int main(void)
 	int n;
 	int m;
 	int y;
+
 	for (n = '0'; n <= '9'; n++)
 	{
 		for (m = (n + 1) ; m <= '9'; m++)
