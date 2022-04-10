@@ -10,10 +10,10 @@ int main(void)
 {
         int n;
 
-        for (0 = 1; n <= 9; n++)
+        for (n = 1; n <= 9; n++)
         {
                 print(%d, n);
-        };`
+        };
         return (0);
 }
 
