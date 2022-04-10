@@ -3,7 +3,6 @@
 #include <time.h>
 
 /**
- * 
  * main - get random number ncompare it with 5 an 0 output result
  *
  * Return: Always 0.
