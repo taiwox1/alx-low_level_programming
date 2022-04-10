@@ -8,13 +8,14 @@ int main(void)
 {
 	int n;
 	int m;
+	int b;
 	
 	for (n = '0'; n <= '9'; n++)
 	{
 		for (m = '0'; m <= '9'; m++)
 		{
-			int b = m + n;
-			if (b <= 9)
+			b = m + n;
+			if (b <= '9')
 			{
 				putchar(n);
 				putchar(b);
