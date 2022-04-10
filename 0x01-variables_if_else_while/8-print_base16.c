@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	int i, y;
+	int i;
+	int y;
 	
 	for (i = 0; i < 10; i++)
 	{
