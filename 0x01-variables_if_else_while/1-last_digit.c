@@ -2,16 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 
-/**
- * this code will genarate a roundom number
- * and assign it to n
- * therefore, if n is greater than %5 output
- *  is last digit ... id .. and grater than 5
- * therefore, if n is lesser than %5 output
- *  is last digit ... id ..and less than 5
- * if zero output is last digit --- is ---
- * and it is zero
- */
+/* more headers goes there */
 
 /* betty style doc for function main goes there */
 
