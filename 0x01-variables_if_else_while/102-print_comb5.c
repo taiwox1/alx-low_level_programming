@@ -1,41 +1,34 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 /**
- * main - print alphabet in lower case and upper case
- *
- * Return: Always 0.
+ * main - main block
+ * Description: Write a program that prints all possible
+ * different combinations of two digits
+ * Return: 0
  */
 int main(void)
 {
-        int n;
-        int m;
-        int y;
-	int q;
+	int num1, num2;
 
-
-	for (q = '0'; q <= '9'; q++)
+	for (num1 = 0; num1 <= 98; num1++)
 	{
-        for (n = '0'; n <= '9'; n++)
-        {
-                for (m = '0' ; m <= '9'; m++)
-                {
-                        for (y = (m + 1) ; y <= '9'; y++)
-                        {
-				putchar(q);
-                                putchar(n);
-				putchar(' ');
-                                putchar(m);
-                                putchar(y);
-                                if (q!= '8' || n != '8')
-                                {
-                                        putchar(',');
-                                        putchar(' ');
-                                }
-                        }
-                };
-        }
+		for (num2 = num1 + 1; num2 <= 99; num2++)
+		{
+			putchar((num1 / 10) + '0');
+			putchar((num1 % 10) + '0');
+			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+
+			if (num1 == 98 && num2 == 99)
+				continue;
+
+			putchar(',');
+			putchar(' ');
+		}
 	}
-        putchar('\n');
-        return (0);
-} 
+
+	putchar('\n');
+
+	return (0);
+}
