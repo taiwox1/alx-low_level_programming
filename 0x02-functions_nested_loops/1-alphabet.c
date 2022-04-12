@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-	print_alphabet('a');
-	print_alphabet('b');
-	print_alphabet('c');
-	print_alphabet('d');
+	print_alphabet();
 	return (0);
 }
+
+void  print_alphabet(void)
+{
+	_putchar("abcdefghijklmnopqrstuvwxyz");
+	_putchar('\n')
+
+};
