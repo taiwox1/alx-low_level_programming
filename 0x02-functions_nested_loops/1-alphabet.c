@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- *main - fu
+ * main - functions prints the alphabet. in lower case, followed by new line
  *
  *
-
-/* betty style doc for function main goes there */
+ */
 int main(void)
 {
 	print_alphabet('a');
