@@ -1,5 +1,5 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
+
 /**
  * main - print _putchar
  *
@@ -8,6 +8,14 @@
 
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+  _putchar('_');
+  _putchar('p');
+  _putchar('u');
+  _putchar('t');
+  _putchar('c');
+  _putcahr('h');
+  _putchar('a');
+  _putchar('r');
+  _putChar('\n');
+  return (0);
 }
