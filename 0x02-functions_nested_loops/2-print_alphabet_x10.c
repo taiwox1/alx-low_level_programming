@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print-alphabet_x10 - function is meant to print putchar , followed by a new line
+ * print-alphabet_x10 - print putchar , followed by a new line
  *
  * Return: Always return 0.
  */
