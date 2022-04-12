@@ -5,8 +5,16 @@
  *
  * Return: Always return 0.
  */
-int main(void)
+void print_alphabet-x10(void)
 {
-	print_alhabet_x10("abcdefghijklmnopqrstuvwsyz");
-	return (0);
+	int a;
+	int alp;
+	for (a = 1; a <= 10; a++)
+	{
+		for ( alp = 'a'; alp <= 'z'; alp++)
+		{
+			_putchar(alp);
+		}
+		_putchar('\n');
+	}
 }
