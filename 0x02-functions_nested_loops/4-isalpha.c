@@ -4,7 +4,7 @@
  *@c: letter being tested
  * Return: Always retune 0 or 1.
  */
-int _islower(int c)
+int _isalpha(int c)
 {
         int value = c;
 
