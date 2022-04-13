@@ -6,9 +6,9 @@
  * */
 int _islower(int c)
 {
-	char value = _putchar(c);
+	int value = c;
 
-	if (value >= 'a' || value <= 'z')
+	if ((value >= 'a' || value <= 'z') || (value >= 97 || value <=112 ))
 	{
 		return (1);
 	}
