@@ -1,33 +1,34 @@
 #include "main.h"
 /**
  * print_to_98 - print n to 98
- * @n: an integer to add to b
+ * @n: count numbers
  * Return: Void.
  */
 
 void print_to_98(int n)
 {
-	for (;;){
-	if ( n >= 0 || n < 98 )
+	int i = 0;
+	if (n > 98)
 	{
-		n++;
-		_putchar(n);
+		for (i = n; i >= 98; i--)
+		{
+			if (i != n)
+			{
+				printf(", ");
+			}
+			printf("%d", i);
+		}
 	}
-	else if ( n == 98)
+	else
 	{
-		_putchar(n);
+		for (i = n; i <= 98 ; i++)
+		{
+			if (i != n)
+			{
+				printf(", ");
+			}
+			printf("%d", i);
+		}
 	}
-	else if ( n > 98 && n != 98)
-	{
-		_putchar(n);
-		n--;
-	}
-	else if ( n < 0 && n != 98)
-	{
-		_putchar(n);
-		n++;
-	}
-	}
-
-
+	putchar('\n');
 }
