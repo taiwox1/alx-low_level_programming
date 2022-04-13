@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_sign -function print signs of numbers
- * @c intialized function
+ * @n intialized function
  * Return: Always return -1, 0 r 1.
  */
 int print_sign(int n)
