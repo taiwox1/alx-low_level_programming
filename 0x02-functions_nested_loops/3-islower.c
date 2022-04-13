@@ -6,7 +6,8 @@
  * */
 int _islower(int c)
 {
-	int value = c;
+	int value = _putchar(c);
+
 	if (value >= 'a' || value <= 'z')
 	{
 		return (1);
