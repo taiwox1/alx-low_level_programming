@@ -7,7 +7,11 @@
  */
 void jack_bauer(void)
 {
-	int a,b,c,d;
+	int a;
+	int b;
+	int c;
+	int d;
+
 	for (a = 0; a <= 2; a++)
 	{
 		for (a = 0; a <= 3; a++)
