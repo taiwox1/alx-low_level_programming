@@ -5,7 +5,7 @@
  * Return: Void.
  */
 
-int add(int n)
+void print_to_98(int n)
 {
 	for (;;){
 	if ( n >= 0 || n < 98 )
