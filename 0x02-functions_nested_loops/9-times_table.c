@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * times_table;
+ * times_table - print 9 times table
  *
  * Return: Always return void;
 */
 void times_table(void)
 {
 	int x, y, m;
-	
+
 	for (y = 0; y < 10; y++)
 	{
 		for (x = 0; x < 10; x++)
