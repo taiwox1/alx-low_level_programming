@@ -17,7 +17,7 @@ int main(void)
 	
 	largest = largest_number(a, b, c);
 
-	print("%disthe leargest number\n", largest);
+	print("%d is the leargest number\n", largest);
 
 	return (0);
 }
