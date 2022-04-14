@@ -4,6 +4,11 @@
 /**
  * main - prints the largest of 3 intergers
  * Return: 0
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
  */
 
 int main(void)
@@ -17,7 +22,7 @@ int main(void)
 	
 	largest = largest_number(a, b, c);
 
-	print("%d is the leargest number\n", largest);
+	printf("%d is the leargest number\n", largest);
 
 	return (0);
 }
