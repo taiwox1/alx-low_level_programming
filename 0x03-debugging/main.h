@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
@@ -9,4 +8,4 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 void positive_or_negative(int i);
-#endif /* MAIN_H */
+#endif
