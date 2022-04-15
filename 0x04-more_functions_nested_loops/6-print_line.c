@@ -2,7 +2,7 @@
 
 /**
  * print_line - to prin straight line
- *
+ * @n: times to print
  * Return: 0;
  */
 
