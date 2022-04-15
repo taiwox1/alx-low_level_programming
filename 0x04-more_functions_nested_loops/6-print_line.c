@@ -14,10 +14,11 @@ void print_line(int n)
 	b = n;
 	for (c = 0; c <= b ; c++)
 	{
-		if (b < 0)
+		if (n <= 0)
 		{
 			_putchar('\n');
 		}
 		_putchar('_');
 	}
+	_putchar('_');
 }
