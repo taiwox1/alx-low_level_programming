@@ -2,8 +2,9 @@
 /**
  * more_numbers - print  numbers 1 to 15
  *
- * Return: Always 0
+ * Return:0
  */
+
 void more_numbers(void)
 {
 	int n, m;
