@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - check the code for 
+ * main - check the code for
  *
  * Return: void.
  */
@@ -10,7 +11,7 @@ int main(void)
 
 	int m;
 
-	for (m = 1; i <= 100; m++)
+	for (m = 1; m <= 100; m++)
 	{
 		if (m % 3 == 0 && m % 5 == 0)
 		{
