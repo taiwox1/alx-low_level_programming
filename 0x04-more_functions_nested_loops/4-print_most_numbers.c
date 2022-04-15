@@ -3,21 +3,18 @@
 /**
  * print_most_numbers - print most numbers
  *
- * Return: Always 0 
+ * Return: Always 0
  */
-
 void print_most_numbers(void)
 {
 	int n;
-	n = 0;
-	for ( n >= 0; n <= 9; n++)
+
+	for (n = 0; n < 10; n++)
 	{
-		if( n = 2 && n = 4)
+		if (n != 2 && n != 4)
 		{
+			_putchar(n + '0');
 		}
-		else
-		{
-			_putchar(n);
-		}
+		_putchar('\n');
 	}
 }
