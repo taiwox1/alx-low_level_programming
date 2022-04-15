@@ -1,35 +1,26 @@
-#include "main.h"
-
+#include <stdio.h>
+#include <math.h>
 /**
- * print_triangle - check for a digit
- * @size : integer type
- * Return:void
+ * main - prime numbers
+ *
+ * Return: Always 0.
  */
-
-void print_triangle(int size)
+int main(void)
 {
 
-	int m = 1;
-	int k;
+unsigned int long n = 612852475143, a = (int) sqrt(n);
 
-	while (m <= size && size > 0)
+while (1)
+{
+
+	if (n % a == 0)
 	{
-		k = 0;
-		while (m < size - m)
-		{
-			_putchar(' ');
-			k++;
-		}
-		k = 0;
-		while (k < m)
-		{
-			_putchar('#');
-			k++;
-		}
-
-		_putchar('\n');
-		m++;
+		printf("%lu \n", n / a);
+		break;
 	}
-	if (m == 1)
-		_putchar('\n');
+	a--;
+
+}
+
+return (0);
 }
