@@ -10,15 +10,15 @@ void print_diagonal(int n)
 {
 
 	int m = 0;
-	int j;
+	int k;
 
 	while (m < n && n > 0)
 	{
-		j = 0;
-		while (j < i)
+		k = 0;
+		while (k < m)
 		{
 			_putchar(' ');
-			j++;
+			k++;
 		}
 
 		_putchar('\\');
