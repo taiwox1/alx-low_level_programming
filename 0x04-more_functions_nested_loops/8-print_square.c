@@ -12,19 +12,19 @@ void print_square(int n)
 	int m = 0;
 	int k;
 
-	while (i < n && n > 0)
+	while (m < n && n > 0)
 	{
 		m = 0;
-		while (ii < n)
+		while (k < n)
 		{
 			_putchar('#');
-			ii++;
+			k++;
 		}
 
 		_putchar('\n');
-		i++;
+		m++;
 	}
-	if (i == 0)
+	if (m == 0)
 		_putchar('\n');
 
 }
