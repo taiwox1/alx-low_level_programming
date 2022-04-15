@@ -1,8 +1,8 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_diagonal - check for a digit
- * @n : number of \\ to be printed
+ * @n : number of \
  * Return:void
  */
 
