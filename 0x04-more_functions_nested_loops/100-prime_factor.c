@@ -11,11 +11,12 @@ int main(void)
 {
 	unsigned int long n = 612852475143;
 	int a = (int) sqrt(n);
+
 	while (1)
 	{
 		if (n % a == 0)
 		{
-			printf("%lu \n", n / a);
+			printf("%lu\n", n / a);
 			break;
 		}
 		a--;
