@@ -1,22 +1,37 @@
 #include "main.h"
-
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * print_number - prints numbers
+ * @n: number to be printed
+ * Return:void
  */
 
-int main(void)
+void print_number(int n)
 {
-    print_number(98);
-    _putchar('\n');
-    print_number(402);
-    _putchar('\n');
-    print_number(1024);
-    _putchar('\n');
-    print_number(0);
-    _putchar('\n');
-    print_number(-98);
-    _putchar('\n');
-    return (0);
+
+	int d = 1, i = 0, ii = 0;
+
+	if (n < 0)
+	{
+		_putchar('-');
+		n = -n;
+	}
+
+	while (n / d != 0)
+	{
+		d *= 10;
+		i++;
+	}
+	d = d / 10;
+
+	while (ii < i)
+	{
+		_putchar('0' + n / d);
+		n = n - (n / d) * d;
+		d = d / 10;
+		ii++;
+	}
+
+	if (i == 0)
+		_putchar('0' + n);
+
 }
