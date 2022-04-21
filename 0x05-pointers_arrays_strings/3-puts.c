@@ -7,15 +7,15 @@
 
 void _puts(char *str)
 {
- 	int i;
-        char c;
+	int i;
+	char c;
 
-        i = 0;
-        while(str[i])
-        {
-                c = str[i];
-	       _putchar(c);
-	       i++;
-        }
-        _putchar('\n');
+	i = 0;
+	while(str[i])
+	{
+		c = str[i];
+		_putchar(c);
+		i++;
+	}
+	_putchar('\n');
 }
