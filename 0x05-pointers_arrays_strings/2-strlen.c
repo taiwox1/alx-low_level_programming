@@ -6,16 +6,17 @@
 
 int _strlen(char *s)
 {
-	int nxt_chtr;
-	int count;
-	char chtr;
+	int a;
+	int b;
+	char c;
 	
-	chtr = s[0];
-	while ( chtr != '\0')
+	b = s[0];
+	while ( c != '\0')
 	{
-		count++;
-		nxt_chtr++;
-		chtr = s[nxt_chtr];
+		c++;
+		a++;
+		b = s[a];
 		
 	}
+	return (c);
 }
