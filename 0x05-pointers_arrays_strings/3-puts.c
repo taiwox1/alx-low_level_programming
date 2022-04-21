@@ -13,7 +13,6 @@ void _puts(char *str)
         i = 0;
         while(str[i])
         {
-                i++;
                 c = str[i];
 	       _putchar(c);
         }
