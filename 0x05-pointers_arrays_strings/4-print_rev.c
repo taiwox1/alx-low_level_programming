@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts - print a stringin reverse followed by newline
- * @str: parameter
+ * @s: parameter
  * Return: Always void
  */
 
