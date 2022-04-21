@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts - print a string followed by newline
+ * _print_rev - print a string followed by newline
  * @str: parameter
  * Return: Always void
  */
