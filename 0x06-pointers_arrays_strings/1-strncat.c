@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat - this function concatenate two string together
+ * *_strncat - this function concatenate two string together
  * @dest: first pointer added to and finally return
  * @src: second pointer holding string to be add.
  * @n: numbes of byte
