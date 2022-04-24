@@ -2,7 +2,7 @@
 /**
  * string_toupper - change lower case to upper case
  * @str: string to change;
- * Return: Always 0.
+ * Return: str
  */
 char *string_toupper(char *str)
 {
