@@ -3,11 +3,11 @@
  * *_strncat - this function concatenate two string together
  * @*dest: first pointer added to and finally return
  * @*src: second pointer holding string to be add.
- * @n: size of string
- * Return: dest
+ * @n: byte size
+ * Return: void
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src)
 {
 	int dest_len;
 	int i;
