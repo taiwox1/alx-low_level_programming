@@ -4,6 +4,7 @@
  * @dest: final destination
  * @src: source
  * @n: numbers of byte
+ * Return: void
  */
 
 char *_strncpy(char *dest, char *src, int n)
