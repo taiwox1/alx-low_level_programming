@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strncat - this function concatenate two string together
+ * *_strcat - this function concatenate two string together
  * @dest: first pointer added to and finally return
  * @src: second pointer holding string to be add.
  * Return: void
@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 
 	for (dest_len = 0; dest[dest_len] != '\0'; dest_len++)
 		;
-	for (i = -1; src[i] != '\0'; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
 		dest[dest_len + i] = src[i];
 	}
