@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * *_strncat - this function concatenate two string together
  * @*dest: first pointer added to and finally return
