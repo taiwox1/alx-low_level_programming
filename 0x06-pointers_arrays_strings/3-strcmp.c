@@ -4,7 +4,7 @@
  * _strcmp - compare two strtings
  * @s1: first string
  * @s2: second string
- * Return: Always 0
+ * Return: 0 or s1[i] - s2[i] 
  */
 
 int _strcmp(char *s1, char *s2)
