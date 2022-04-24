@@ -7,7 +7,7 @@
  * Return: void
  */
 
-char *_strncat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int dest_len;
 	int i;
