@@ -9,7 +9,7 @@ char *rot13(char *str)
         int i;
         int h;
 
-        char cas0[] = "rot13";
+        char cas0[] = "rotate13";
 
         for (i = 0; str[i] != '\0'; i++)
         {
