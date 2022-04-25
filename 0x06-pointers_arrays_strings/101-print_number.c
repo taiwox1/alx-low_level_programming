@@ -19,6 +19,6 @@ void print_number(int n)
 	for (; d >= 1; n %= d, d /= 10)
 	{
 		p = n / d;
-		_putchar('0' + r);
+		_putchar('0' + p);
 	}
 }
