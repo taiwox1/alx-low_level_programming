@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * leet - encoding string
+ * rot13 - encoding string
  * @str: string to encode
  * Return: void
  */
-char *leet(char *str)
+char *rot13(char *str)
 {
         int i;
         int h;
