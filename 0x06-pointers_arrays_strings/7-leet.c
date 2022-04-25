@@ -8,36 +8,18 @@ char *leet(char *str)
 {
 	int i;
 	int h;
-	char cas[] = "aeotlAEOTL";
 
+	char cas0[] = "aeotl";
+	char cas1[] = "AEOTL";
+	char cas2[] = "43071";
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (h = 0; cas[h] != '\n'; h++)
+		for (h = 0; h < 5; h++)
 		{
-			if (str[i] == 'a' || str[i] == 'A')
+			if (str[i] == cas0[h] || str[i] == cas1[h])
 			{
-				str[i - 1] = '4';
-				break;
-			}
-			else  if (str[i] == 'e' || str[i] == 'e')
-			{
-				str[i - 1] = '3';
-				break;
-			}
-			else  if (str[i] == 'o' || str[i] == 'O')
-			{
-				str[i - 1] = '0';
-				break;
-			}
-			else  if (str[i] == 't' || str[i] == 'T')
-			{
-				str[i - 1] = '7';
-				break;
-			}
-			else if (str[i] == 'l' || str[i] == 'L')
-			{
-				str[i - 1] = '1';
+				str[i] = cas2[h];
 				break;
 			}
 		}
