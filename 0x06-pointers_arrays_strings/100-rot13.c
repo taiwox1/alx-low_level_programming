@@ -17,7 +17,7 @@ char *rot13(char *str)
                 {
                         if (str[i] == cas0[h])
                         {
-                                str[i - 1] = cas0[h];
+                                str[i] = cas0[h];
                                 break;
                         }
                 }
