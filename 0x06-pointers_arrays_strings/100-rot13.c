@@ -13,7 +13,7 @@ char *rot13(char *str)
 
         for (i = 0; str[i] != '\0'; i++)
         {
-                for (h = 0; h < 9; h++)
+                for (h = 0; h < '\0'; h++)
                 {
                         if (str[i] == cas0[h])
                         {
