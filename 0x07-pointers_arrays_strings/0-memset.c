@@ -2,7 +2,7 @@
 
 /**
  * _memset -fill memory with constant byte
- * @*s: destination
+ * @s: destination
  * @b: constant byte
  * @n: size of element
  * Return: s
