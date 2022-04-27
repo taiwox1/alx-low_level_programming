@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strpbrk - function that gets the length substring
+ * _strpbrk - function that gets the length substring
  * @s: string
  * @accept: check byte
  * Return: n of byte;
@@ -18,7 +18,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				return (s + 1);
+				return (s + i);
 			}
 		}
 	}
