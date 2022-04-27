@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * dest - destional
+ * _memcpy: function copies from src to dest
+ * @dest: destional
  * @src: source
  * @n: size
  * Return: always dest
