@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strbrk - function that gets the length substring
+ * _strpbrk - function that gets the length substring
  * @s: string
  * @accept: check byte
  * Return: n of byte;
