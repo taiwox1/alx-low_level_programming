@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memcpy: function copies from src to dest
+ * *_memcpy: function copies from src to dest
  * @dest: destional
  * @src: source
  * @n: size
