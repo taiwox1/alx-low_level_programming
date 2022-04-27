@@ -3,7 +3,7 @@
 /**
  * *_strchr - function locate charcter
  * @s: string
- * @c character
+ * @c: character
  */
 
 char *_strchr(char *s, char c)
