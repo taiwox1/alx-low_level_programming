@@ -4,6 +4,7 @@
  * *_strchr - function locate charcter
  * @s: string
  * @c: character
+ * Return: null or  s
  */
 
 char *_strchr(char *s, char c)
@@ -15,12 +16,7 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 		{
 			return (s + i);
-			break;
-		
-		}
-		if (s[i] != '\0')
-		{
-			return (0);
 		}
 	}
+	return ('\0');
 }
