@@ -7,16 +7,19 @@
  * Return: n of byte;
  */
 
-unsigned int _strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i;
 	int j;
 
 	for (i = 0; s[i] >= '\0'; i++)
 	{
-		if (s[i] == accept[j])
+		for (j = 0; accept[j] > '\0'; j++)
 		{
-			return (s[i]);
+			if (s[i] == accept[j])
+			{
+				return (s + i);
+			}
 		}
 	}
 	return ('\0');
