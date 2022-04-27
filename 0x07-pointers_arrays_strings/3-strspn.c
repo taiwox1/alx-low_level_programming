@@ -20,13 +20,9 @@ unsigned int _strspn(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				n++;
+				return (s + i); 
 				break;
 			}
-		}
-		if (accept[j] == '\0')
-		{
-			break;
 		}
 	}
 	return (n);
