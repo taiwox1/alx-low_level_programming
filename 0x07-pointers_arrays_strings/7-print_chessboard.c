@@ -1,6 +1,7 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * *print_chessboard - print board
+ * print_chessboard - print board
  * @a: board pointer 
  * Return: void
  */
