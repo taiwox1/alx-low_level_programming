@@ -46,4 +46,4 @@ int check(char *s, int start, int end, int pair)
 		return (0);
 	else
 		return (check(s, start + 1, end - 1, pair));
-} 
+}
