@@ -1,1 +1,1 @@
-static library
+My low leve second task
