@@ -4,7 +4,7 @@
 
 /**
  * *_strdup - Return a newly allocated memorey contain a copy of a string
- * @str - string to be copied
+ * @str: - string to be copied
  * Return: Null of copied pointer
  */
 
