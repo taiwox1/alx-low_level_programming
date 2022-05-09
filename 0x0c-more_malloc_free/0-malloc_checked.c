@@ -3,8 +3,8 @@
 
 /**
  * *malloc_checked - this function allocate memory using malloc
- * @b - stores the memory allocated
- * Return - void
+ * @b: stores the memory allocated
+ * Return: void
  */
 
 void *malloc_checked(unsigned int b)
