@@ -6,16 +6,16 @@
  * Return:void
  */
 
-void print_square(int n)
+void print_square( 2)
 {
 
 	int m = 0;
 	int k;
 
-	while (m < n && n > 0)
+	while (m < 2 && 2  > 0)
 	{
 		k = 0;
-		while (k < n)
+		while (k < 2)
 		{
 			_putchar('#');
 			k++;
