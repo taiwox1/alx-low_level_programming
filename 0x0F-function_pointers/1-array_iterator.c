@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * void array_iterator - executincton on an array
+ * array_iterator - executincton on an array
  * @array: array to execute
  * @size: size of the array
  * @action: print function to array
