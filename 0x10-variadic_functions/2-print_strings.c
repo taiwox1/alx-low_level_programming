@@ -52,7 +52,7 @@ void print_all(const char * const format, ...)
 	int i = 0, j = 0;
 	char *sep = "";
 
-	printTypeStruct printType[] = 
+	printTypeStruct printType[] =
 	{
 		{ "i", print_int },
 		{ "f", print_float },
@@ -62,6 +62,7 @@ void print_all(const char * const format, ...)
 	};
 
 	va_start(list, format);
+
 	while (format && format[i])
 	{
 		j = 0;
