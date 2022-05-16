@@ -9,18 +9,16 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-        va_list as;
+	va_list as;
+	int i;
 
-        const unsigned int i;
-
-        va_start(as, n);
-        if (n == 0)
-                return (0);
-        for ( i = n; i >= 0; i = va_arg(as, int))
-        {
-                i += i;
-                printf("%d", i);
-        }
-        va_end(ap);
+	va_start(as, n);
+	if (n == 0)
+		return (0);
+	for (i = n; i >= 0; i = va_arg(as, const unsigned int))
+	{
+		i++;
+		printf("%d", i);
+	}
+	va_end(as);
 }
-~  
