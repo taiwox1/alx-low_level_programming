@@ -63,21 +63,21 @@ void print_all(const char * const format, ...)
 	va_start(list, format);
 
 	while (format && format[i])
-{
-	j = 0;
-	while (j < 4)
 	{
-		if (*printType[j].type == format[i])
+		j = 0;
+		while (j < 4)
 		{
-			printf("%s", sep);
-			printType[j].printer(list);
-			sep = ", ";
-			break;
+			if (*printType[j].type == format[i])
+			{
+				printf("%s", sep);
+				printType[j].printer(list);
+				sep = ", ";
+				break;
+			}
+			j++;
 		}
-		j++;
+		i++;
 	}
-	i++;
-}
-printf("\n");
-va_end(list);
+	printf("\n");
+	va_end(list);
 }
