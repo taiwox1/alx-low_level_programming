@@ -4,8 +4,8 @@
 #include "lists.h"
 /**
  * print_listint - print all element of a list
- * @h - head pointer to list
- * Return - number of element in the list.
+ * @h: head pointer to list
+ * Return: number of element in the list.
  */
 size_t print_listint(const listint_t *h)
 {
