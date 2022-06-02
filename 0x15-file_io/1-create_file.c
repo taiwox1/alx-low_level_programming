@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * create_file - create a file that is readable and writable
- * @filename: name of file pointer
- * @text_content: string to write to file
- * Return: 1, -1 on failure
+ * create_file - create readable and writable file
+ * @filename: file pointer
+ * @text_content: file string
+ * Return: 1 , -1 for failure
  */
 int create_file(const char *filename, char *text_content)
 {
-int folder,star , i;
+int folder, star, x;
 
 if (filename == NULL)
 	return (-1);
@@ -20,9 +20,9 @@ if (folder == -1)
 
 if (text_content)
 {
-	for (i = 0; text_content[i] != '\0'; i++)
+	for (x = 0; text_content[x] != '\0'; x++)
 		;
-	star = write(folder, text_content, i);
+	star = write(folder, text_content, x);
 	if (star == -1)
 		return (-1);
 }
