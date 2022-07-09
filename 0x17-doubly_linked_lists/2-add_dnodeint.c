@@ -1,4 +1,5 @@
-#include "list.h"
+#include "lists.h"
+#include <stdio.h>
 
 /**
  * *add_dnodeint - function adds new nodes to the beginning of list
