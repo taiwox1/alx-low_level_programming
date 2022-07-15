@@ -1,6 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
-int nrandom(void)
+#include <stdio.h>
+#include <stdlib.h>
+
+int nrandom(void);
 int add(int a, int b);
 int sub(int a, int b);
 int mul(int a, int b);
