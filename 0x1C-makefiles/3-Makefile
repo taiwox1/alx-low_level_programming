@@ -12,5 +12,5 @@ oclean:
 fclean:
 	${RM} ${OBJ} ${SCR} ${NAME}
 clean:
-       $(RM) ${OBJ} ${NAME}
+       $(RM) ${OBJ} ${SCR} ${NAME}
 re: fclean all
