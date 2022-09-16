@@ -9,14 +9,18 @@ def island_perimeter(grid):
     1: land zone
     size: size of the is land
     """
+    row_len = len(grid)
+    col_len = len(grid[0])
+        #print(range(len(grid))) 
     size = 0
-    for i in grid:
-        if i > 100:
-            return
-        for x in i:
-            if x > 100:
-                return
-            if i[x] == 1:
-                size += 1
-    perimeter = size * 4
-    return perimeter
+    edge = 0
+        
+    for x in range(row_len):
+        for y in range(col_len):
+            if grid[x][y] == 1:
+                    size += 1
+            if (y > 0 and grid[x][y] ==  1 and grid[x][y - 1] ==  1):
+                    edge += 1
+            if (x > 0 and grid[x][y] ==  1 and grid[x - 1][y] ==  1):
+                    edge += 1
+    return ((size*4) - (edge *2))
